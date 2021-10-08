@@ -22,13 +22,13 @@ int main(void) {
     unsigned char tmp_B = 0;
     /* Insert your solution below */
     while (1) {
-        tmp_A = ((PINA & 0X80) >> 7) + ((PINA & 0x40) >> 6) +
-		((PINA & 0x20) >> 5) + ((PINA & 0x01) >> 4) +
+        tmp_A = ((PINA & 0x80) >> 7) + ((PINA & 0x40) >> 6) +
+		((PINA & 0x20) >> 5) + ((PINA & 0x10) >> 4) +
 		((PINA & 0x08) >> 3) + ((PINA & 0x04) >> 2) +
 		((PINA & 0x02) >> 1) + (PINA & 0x01);
 
-	tmp_B = ((PINB & 0X80) >> 7) + ((PINB & 0x40) >> 6) +
-                ((PINB & 0x20) >> 5) + ((PINB & 0x01) >> 4) +
+	tmp_B = ((PINB & 0x80) >> 7) + ((PINB & 0x40) >> 6) +
+                ((PINB & 0x20) >> 5) + ((PINB & 0x10) >> 4) +
                 ((PINB & 0x08) >> 3) + ((PINB & 0x04) >> 2) +
                 ((PINB & 0x02) >> 1) + (PINB & 0x01);
 
