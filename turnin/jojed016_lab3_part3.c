@@ -1,7 +1,7 @@
 /*	Author: Jasmine Ojeda jojed016@urc.edu
  *	Lab Section: 022
- *	Assignment: Lab 3  Exercise 2
- *	Exercise Description: Fuel level sensor with LEDs
+ *	Assignment: Lab 3  Exercise 3
+ *	Exercise Description: Fuel level sensor with LEDs and seatbelt sensor included
  *
  *	I acknowledge all content contained herein, excluding template or example
  *	code, is my own original work.
